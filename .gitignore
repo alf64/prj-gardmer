@@ -1,0 +1,30 @@
+# OS specifics #
+###################
+*Thumbs.db
+
+# ----- Software outputs -----
+*.d
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# ----- PCBs outputs -----
+# KiCad backup files
+*.bak
+*.bck
+
+# Ignore KiCad rescue libs files #
+*rescue.lib
+
+# Ignore KiCad footprint lib table files
+*fp-lib-table
