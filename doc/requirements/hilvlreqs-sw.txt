@@ -1,0 +1,137 @@
+##############################################
+#####           hilvlreqs-fw             #####
+##### High Level Requirements - Firmware #####
+##############################################
+
+
+----- hilvlreqs-fw-templ-000 -----
+< Just a template >
+
+--------------------------
+
+
+####################### hilvlreqs-fw-startup ############################
+
+----- hilvlreqs-fw-startup-001 -----
+Device should boot up as soon as stable 5V DC voltage is supplied.
+
+--------------------------
+
+##########################################################################
+
+
+
+
+####################### hilvlreqs-fw-wdt ###########################
+
+----- hilvlreqs-fw-wdt-001 -----
+The device should implement watchdog timer that will reset the MCU if not being cleared every <= 500 ms.
+
+--------------------------
+
+##########################################################################
+
+
+
+####################### hilvlreqs-fw-states ###########################
+
+----- hilvlreqs-fw-states-001 -----
+The device implements state machine with following states:
+1. START
+2. LOCKED
+3. UNLOCKED
+4. USERACTION
+
+-----------------------------------
+
+#######################################################################
+
+
+
+####################### hilvlreqs-fw-start ###########################
+
+----- hilvlreqs-fw-start-001 -----
+The START state is the first state that the device enters after power up.
+
+-----------------------------------
+
+
+----- hilvlreqs-fw-start-002 -----
+In the START state all relays should be closed (OFF).
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-003 -----
+In the START state all 'Selection LEDs' should be OFF.
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-004 -----
+In the START state all 'Relay LEDs' should be OFF.
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-005 -----
+In the START state the 'Unlock LED' should be powered OFF.
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-006 -----
+In the START state the 7-segment display should be OFF (displaying nothing).
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-007 -----
+In the START state the system does not react to any of the push buttons presses (besides the 'MCU Reset').
+
+--------------------------
+
+
+----- hilvlreqs-fw-start-008 -----
+In the START state the system initializes all essential MCU peripherals and then moves into LOCKED state.
+
+--------------------------
+
+#######################################################################
+
+
+
+####################### hilvlreqs-fw-locked ###########################
+
+----- hilvlreqs-fw-locked-001 -----
+The system enters LOCKED state with all external peripherals inherited from START state (relays OFF, 7disp OFF, etc.)
+
+--------------------------
+
+
+----- hilvlreqs-fw-locked-002 -----
+In the LOCKED state the 'Lock LED' should be powered ON.
+
+--------------------------
+
+
+----- hilvlreqs-fw-locked-003 -----
+In the LOCKED state the system does not react to any of the push buttons presses (besides the 'MCU Reset' and 'Unlock switch').
+
+--------------------------
+
+
+----- hilvlreqs-fw-locked-004 -----
+In the LOCKED state the system monitors timers that are assigned per each relay.
+
+--------------------------
+
+
+----- hilvlreqs-fw-locked-00x -----
+In the LOCKED state, when the 'Unlock switch' toggles (changes its position/state), the system moves into the UNLOCKED state.
+
+--------------------------
+
+#######################################################################
+
+

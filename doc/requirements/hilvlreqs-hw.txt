@@ -1,0 +1,208 @@
+##############################################
+#####           hilvlreqs-hw             #####
+##### High Level Requirements - Hardware #####
+##############################################
+
+
+----- hilvlreqs-hw-templ-000 -----
+< Just a template >
+
+--------------------------
+
+
+####################### hilvlreqs-hw-relays ############################
+
+----- hilvlreqs-hw-relays-001 -----
+The device contains 4 relay switches.
+
+--------------------------
+
+
+----- hilvlreqs-hw-relays-002 -----
+Each relay switch can drive 230VAC device with power consumption at least 1000W.
+
+--------------------------
+
+
+----- hilvlreqs-hw-relays-003 -----
+Each relay switch should be able to be drived by voltage 5V DC.
+
+--------------------------
+
+
+----- hilvlreqs-hw-relays-004 -----
+Each relay switch should be normally closed (NC).
+This means that relay should be off when there is no 5V DC supplied to its driving input.
+
+--------------------------
+
+
+----- hilvlreqs-hw-relays-005 -----
+Each relay should be drived by MCU through the transistor.
+
+--------------------------
+
+
+
+##########################################################################
+
+
+
+
+####################### hilvlreqs-hw-buttons ###########################
+
+----- hilvlreqs-hw-buttons-001 -----
+The device implements 1 bi-state 'Unlock' switch.
+
+--------------------------
+
+----- hilvlreqs-hw-buttons-002 -----
+The device implements 4 uni-state momentary push buttons, each one called 'Relay x' switch ('x' maps to relay number, range: 1 - 4).
+
+--------------------------
+
+----- hilvlreqs-hw-buttons-003 -----
+The device implements 3 uni-state momentary push buttons, called respectively: 'Clear', 'Minutes' and 'Hours'.
+
+--------------------------
+
+----- hilvlreqs-hw-buttons-004 -----
+The device implements 1 uni-state momentary push button, called 'MCU Reset'.
+
+--------------------------
+
+##########################################################################
+
+
+
+
+####################### hilvlreqs-hw-leds ###########################
+
+----- hilvlreqs-hw-leds-001 -----
+The device implements 1 red LED, called 'Lock' LED.
+
+--------------------------
+
+
+----- hilvlreqs-hw-leds-002 -----
+The device implements 1 green LED, called 'Unlock' LED.
+
+--------------------------
+
+
+----- hilvlreqs-hw-leds-003 -----
+The device implements 4 'Selection' LEDs.
+Each one called 'Selection LED x' ('x' maps to LED number, range: 1 - 4).
+
+--------------------------
+
+
+----- hilvlreqs-hw-leds-004 -----
+The device implements 4 'Relay' LEDs.
+Each one called 'Relay LED x' ('x' maps to LED number, range: 1 - 4).
+
+--------------------------
+
+
+#######################################################################
+
+
+
+
+####################### hilvlreqs-hw-disp ###########################
+
+----- hilvlreqs-hw-disp-001 -----
+The device implements 7 segment display with at least 4 digits fields.
+
+--------------------------
+
+#######################################################################
+
+
+
+
+####################### hilvlreqs-hw-pcb ###########################
+
+----- hilvlreqs-hw-pcb-001 -----
+The device implements 2-layered PCB of a standard 1.5mm thickness.
+
+--------------------------
+
+
+----- hilvlreqs-hw-pcb-002 -----
+The PCB is additionaly painted with a transparent paint that will isolate it from atmospheric conditions (extreme temperatures, water, dust).
+
+--------------------------
+
+
+----- hilvlreqs-hw-pcb-003 -----
+The pcb should safely separate traces with 230VAC from other voltages, by the following means:
+* Appropriate distance should be applied, 
+* Separate space on pcb should be used for traces carrying the 230VAC,
+* The GND should not be poured on such separate space mentioned above.
+
+--------------------------
+
+----- hilvlreqs-hw-pcb-004 -----
+The device should have pins for connecting programmer.
+
+--------------------------
+
+#######################################################################
+
+
+
+
+####################### hilvlreqs-hw-pwr ###########################
+
+----- hilvlreqs-hw-pwr-001 -----
+The device should have the following DC voltages delivered externally:
+* GND
+* 5V (with I >= 500mA)
+
+----------------------------------
+
+
+----- hilvlreqs-hw-pwr-002 -----
+The device should have the following AC voltages delivered externally:
+* 'L' ('Live') (230VAC)
+
+----------------------------------
+
+
+----- hilvlreqs-hw-pwr-003 -----
+There is no need for 'N' ('Neutral') to be connected to the pcb.
+It should be connected directly to the external devices being drived by the relays.
+
+----------------------------------
+
+########################################################################
+
+
+
+
+####################### hilvlreqs-hw-mcu ###########################
+
+----- hilvlreqs-hw-mcu-001 -----
+The device implements MCU that acts as its primary logic.
+
+--------------------------
+
+
+----- hilvlreqs-hw-mcu-002 -----
+The MCU should be supplied by external oscillator of 8MHz.
+
+--------------------------
+
+
+----- hilvlreqs-hw-mcu-003 -----
+The MCU should be powered by voltage of 5V.
+
+--------------------------
+
+----- hilvlreqs-hw-mcu-004 -----
+There should be a way to reset the MCU through hardware means, by push button called 'MCU Reset'.
+
+--------------------------
+
+########################################################################
