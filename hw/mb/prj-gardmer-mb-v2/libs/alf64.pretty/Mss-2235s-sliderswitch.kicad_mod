@@ -1,0 +1,202 @@
+(footprint "Mss-2235s-sliderswitch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Slider switch SMD 2 positions, 6 pins")
+	(tags "slider switch")
+	(property "Reference" "REF**"
+		(at 0.25 -5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ba99095-7188-44f0-b934-1b81cc563f80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mss-2235s-sliderswitch"
+		(at -0.15 5.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "323c1b11-9021-4ba4-aa74-478cd62d9b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.75 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7982b4b5-6ee5-44c4-97fd-329665a51b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.75 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a444f92-dbcb-49bf-9454-3a9eaf354fd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.75 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e47c0694-dfc9-4fb2-a6e4-e0efe717077e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -4.5)
+		(end 1.75 -4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32f96c58-48bb-4f35-bf53-87e16d34cc47")
+	)
+	(fp_line
+		(start -1.75 -3.3)
+		(end -1.75 -4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d819e326-ef79-4f87-a4d5-faf28f45d86f")
+	)
+	(fp_line
+		(start -1.75 3.3)
+		(end -1.75 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b74298fa-8dd0-4126-83a1-6582847f3aea")
+	)
+	(fp_line
+		(start -1.75 4.5)
+		(end 1.75 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4877e07-db7e-4e52-9cc0-043db1ebfb4f")
+	)
+	(fp_line
+		(start 1.75 -4.5)
+		(end 1.75 -3.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65e2e839-e8ba-40e9-a36b-374c507e1640")
+	)
+	(fp_line
+		(start 1.75 4.5)
+		(end 1.75 3.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35474baf-e28f-48ad-b6f4-60e13d23a47f")
+	)
+	(fp_rect
+		(start -4.45 -4.7)
+		(end 4.45 4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fa4f7b5f-c505-4fb9-aa6e-f94ec8fbc6c5")
+	)
+	(fp_rect
+		(start -1.75 -4.5)
+		(end 1.75 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "db4dac98-896d-44ff-9cb6-9eba4f68f8c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b92d767a-8e8d-4944-b9c8-bcb261b14964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.75 -2.5)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "964ef668-6c5a-48b7-8d4f-71f3b9f4f539")
+	)
+	(pad "2" smd rect
+		(at -2.75 0)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eba6299f-8dda-4dd1-8690-e96b68f1cf44")
+	)
+	(pad "3" smd rect
+		(at -2.75 2.5)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe34d9ae-1a8d-4f96-bf40-33c7823e595d")
+	)
+	(pad "4" smd rect
+		(at 2.75 2.5)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eef91a56-d93e-451d-8fdf-a0c47df12c17")
+	)
+	(pad "5" smd rect
+		(at 2.75 0)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59d789ab-094a-464e-8068-4a7ccc9231fa")
+	)
+	(pad "6" smd rect
+		(at 2.75 -2.5)
+		(size 3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d736abf-fa3d-4784-a480-dec384246406")
+	)
+)

@@ -1,0 +1,149 @@
+(footprint "relay_AZ9371"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Relay 5V Zettler AZ9371")
+	(tags "relay AZ9371")
+	(property "Reference" "REF**"
+		(at -8.6 -4.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67c19bae-19c4-43a6-abf0-80c0d7fc452b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "relay_AZ9371"
+		(at 5.4 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "443556a1-2519-4c67-a602-c56895d7ae4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -10.25 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b81b496f-1a18-4178-b516-a492d3bd3d4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -10.25 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98b7ac0f-8ab7-4793-97f2-8b306e09561d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Relay 5V Zettler AZ9371"
+		(at 1.6 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "561c0f76-30c0-4eed-8f50-66cf672966e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.7 -3.9)
+		(end 10.8 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "981484c5-c1e7-4d78-9e1c-c5b6b4ad889a")
+	)
+	(fp_rect
+		(start -10.7 -3.9)
+		(end 10.8 3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d0e2427f-5766-4cb0-880a-a5468c1c8fce")
+	)
+	(fp_rect
+		(start -10.25 -3.6)
+		(end 10.25 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a6342ed1-7ebd-4d43-ba2b-adcee00f8cf3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22c7a92e-e12c-4e88-b13e-5b0f77dea297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -9.2 -2.4)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0aa9e128-2f4c-4c43-9840-282f8254e654")
+	)
+	(pad "2" thru_hole circle
+		(at -9.2 2.3)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94784560-8e0a-46a4-8590-905a80d17676")
+	)
+	(pad "3" thru_hole circle
+		(at 2.3 2.3)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94fa21d2-1f17-4fa3-ab87-e1bfa88b63a8")
+	)
+	(pad "4" thru_hole circle
+		(at 9.3 2.3)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15c8ea51-3863-4d33-8c7d-7f8b81ce12a1")
+	)
+)
