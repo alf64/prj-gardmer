@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
 			(at 267.97 34.29 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:Conn_Degson_2x3.81mm"
 			(at 25.4 52.07 0)
 			(effects
 				(font

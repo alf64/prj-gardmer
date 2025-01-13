@@ -2080,7 +2080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:Solderjumper-3-rounded"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:Generic_1206"
 			(at 139.7 69.088 90)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:CR2032_Holder_DS1092"
 			(at 204.47 74.676 90)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:C_Tantal_2312"
 			(at 177.4952 78.74 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:Generic_0805"
 			(at 191.4652 78.74 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:D_QuadroMelf"
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT"
+		(property "Footprint" "alf64:IRM-03"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:RV_Disc_D21.5mm_W5.4mm_P10mm"
 			(at 78.232 62.23 90)
 			(effects
 				(font
@@ -2687,7 +2687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "alf64:C_Tantal_2312"
 			(at 163.5252 78.74 0)
 			(effects
 				(font
