@@ -1,0 +1,90 @@
+(footprint "Hole_4.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "hole d=4.6mm")
+	(tags "hole 4.6mm")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca2976ba-9582-4f10-8142-de9b1d1198c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Hole_4.6mm"
+		(at -0.1 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12b54ab0-0f80-49ff-a246-19f11630085a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6431a7a-f888-402e-946f-74e3c409e6a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8a1f11a-d9cf-4871-9c0c-c5f863d3b9e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "hole 4.6mm"
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb5e2e91-947d-4817-8454-2f03fb8b93ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "514cb9a2-1784-48e2-96b3-6cc4a0a5a313")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.8 4.8)
+		(drill 4.6)
+		(layers "*.Mask")
+		(uuid "84a68da8-22f7-4d0a-acfe-6f0fe2cb06d2")
+	)
+)
