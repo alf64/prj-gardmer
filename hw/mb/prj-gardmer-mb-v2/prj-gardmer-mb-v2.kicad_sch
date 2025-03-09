@@ -734,6 +734,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 54.61) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f929941-540d-4d54-a73b-8cf5167596d4")
+	)
+	(wire
+		(pts
 			(xy 111.76 135.89) (xy 111.76 139.7)
 		)
 		(stroke
@@ -804,16 +814,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 54.61) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ecb85b-eb20-4730-9226-45d26bd32ec7")
-	)
-	(wire
-		(pts
 			(xy 86.36 58.42) (xy 86.36 54.61)
 		)
 		(stroke
@@ -831,16 +831,6 @@
 			(type default)
 		)
 		(uuid "4f3344cc-333a-44b0-bc21-893b4eda6fdd")
-	)
-	(wire
-		(pts
-			(xy 30.48 52.07) (xy 48.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5290964c-6b50-4e26-a8b1-ea25a9ef3a3b")
 	)
 	(wire
 		(pts
@@ -921,6 +911,16 @@
 			(type default)
 		)
 		(uuid "762b420d-4b9b-4cff-9e69-3bec9ee59c2b")
+	)
+	(wire
+		(pts
+			(xy 30.48 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8396d4c9-ba4f-40e5-b35d-15e29a493e2d")
 	)
 	(wire
 		(pts
@@ -1207,17 +1207,15 @@
 	)
 	(symbol
 		(lib_id "alf64:Conn_01x02")
-		(at 25.4 41.91 0)
-		(mirror y)
+		(at 25.4 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2dc82b87-e69a-4cbf-b2cd-d2447cc8a924")
 		(property "Reference" "J2"
-			(at 25.4 35.56 0)
+			(at 25.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1223,7 @@
 			)
 		)
 		(property "Value" "230VAC_IN"
-			(at 25.4 38.1 0)
+			(at 25.146 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1231,7 @@
 			)
 		)
 		(property "Footprint" "alf64:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 25.4 41.91 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 41.91 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1249,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 41.91 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,8 +1804,7 @@
 	)
 	(symbol
 		(lib_id "alf64:Conn_01x02")
-		(at 25.4 52.07 0)
-		(mirror y)
+		(at 25.4 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1815,7 +1812,7 @@
 		(dnp no)
 		(uuid "ecea89e3-4ad6-42a6-bcf4-ae04a4d948dd")
 		(property "Reference" "J4"
-			(at 25.4 57.912 0)
+			(at 25.4 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1820,7 @@
 			)
 		)
 		(property "Value" "5VDC_IN"
-			(at 25.4 60.452 0)
+			(at 25.4 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1828,7 @@
 			)
 		)
 		(property "Footprint" "alf64:Conn_Degson_2x3.81mm"
-			(at 25.4 52.07 0)
+			(at 25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 52.07 0)
+			(at 25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1846,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 52.07 0)
+			(at 25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

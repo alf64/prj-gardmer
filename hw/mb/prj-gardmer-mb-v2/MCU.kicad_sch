@@ -2757,12 +2757,6 @@
 		(uuid "05fe1f9c-9bf5-4363-92b2-0c6d966da421")
 	)
 	(junction
-		(at 86.36 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cc89798-4db6-456e-b601-5fcf7a996e4a")
-	)
-	(junction
 		(at 57.15 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2881,12 +2875,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a92e4613-4e4d-42ba-a18c-d5ac0b611ad2")
-	)
-	(junction
-		(at 86.36 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac1a7746-f8fb-4709-ba6d-58fbd5f18b87")
 	)
 	(junction
 		(at 177.8 85.09)
@@ -3186,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 143.51) (xy 92.71 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9ac070-d40b-4abb-986d-e40a3761ab9d")
-	)
-	(wire
-		(pts
 			(xy 27.94 27.94) (xy 44.45 27.94)
 		)
 		(stroke
@@ -3303,16 +3281,6 @@
 			(type default)
 		)
 		(uuid "44022daa-6937-42f9-86d7-f6b9605dca12")
-	)
-	(wire
-		(pts
-			(xy 92.71 151.13) (xy 92.71 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b7ff1f-6b64-4171-9b21-7c1d21e7577c")
 	)
 	(wire
 		(pts
@@ -3826,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 143.51) (xy 86.36 143.51)
+			(xy 69.85 143.51) (xy 81.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3976,23 +3944,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 151.13) (xy 86.36 151.13)
+			(xy 74.93 151.13) (xy 81.28 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b288bac4-10e5-4688-8447-929fc92b72b4")
-	)
-	(wire
-		(pts
-			(xy 86.36 151.13) (xy 92.71 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ec6594-ba43-4449-8107-39d718632495")
 	)
 	(wire
 		(pts
@@ -5804,7 +5762,8 @@
 	)
 	(symbol
 		(lib_id "alf64:Crystal")
-		(at 86.36 147.32 90)
+		(at 81.28 147.32 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5812,7 +5771,7 @@
 		(dnp no)
 		(uuid "5912d313-5dc8-439b-a6b9-a2dc22546e28")
 		(property "Reference" "Y2"
-			(at 80.772 146.05 90)
+			(at 84.582 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5780,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 78.994 153.67 90)
+			(at 83.566 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5789,7 @@
 			)
 		)
 		(property "Footprint" "alf64:Crystal_DS26_D2.0mm_L6.0mm_Horizontal"
-			(at 86.36 147.32 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 147.32 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5807,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 86.36 147.32 0)
+			(at 81.28 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
