@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" "Footprint for diodes"
-		(at 0.45 4.9 0)
+		(at 0.45 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -99,16 +99,6 @@
 		(uuid "ee7a2602-0407-44fb-8c95-5a7fb16786e0")
 	)
 	(fp_line
-		(start 2.8 -0.7)
-		(end 2.8 0.75)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "05fc3979-594e-47d8-aa37-07c83a5efffa")
-	)
-	(fp_line
 		(start -2.75 -1.25)
 		(end 2.8 -1.25)
 		(stroke
@@ -148,8 +138,68 @@
 		(layer "F.CrtYd")
 		(uuid "9911071f-0a15-4afb-83ec-e232a94ac85e")
 	)
+	(fp_line
+		(start -0.5 -0.9)
+		(end -0.5 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "842574b2-ca15-412d-bff6-f66f098fadaa")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end -0.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "85f88798-4f26-4b8a-baf3-413788611a02")
+	)
+	(fp_line
+		(start -0.4 0)
+		(end 0.5 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3eaf5b3b-bf9f-4712-bff1-338b42d93ada")
+	)
+	(fp_line
+		(start 0.5 -0.9)
+		(end -0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9dcb2d98-1845-4624-9785-44659eb3b1b0")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba934a21-3257-4a01-a2f4-b26f09b1f192")
+	)
+	(fp_line
+		(start 0.5 0.9)
+		(end 0.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "832a7c78-c432-413d-a7b2-3b1dddbe9d59")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -0.2 3.6 0)
+		(at -0.2 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "09fae651-52cd-4a12-b8f4-f2b54bbeac33")
@@ -161,19 +211,19 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 1.9 0)
-		(size 1.25 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
-		(uuid "8ce79522-fa79-49cd-a280-e6dd581a7e78")
-	)
-	(pad "2" smd roundrect
 		(at -1.85 0)
 		(size 1.25 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "df11906b-2e9a-45e5-b516-d32d059ca540")
+	)
+	(pad "2" smd roundrect
+		(at 1.9 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8ce79522-fa79-49cd-a280-e6dd581a7e78")
 	)
 )
