@@ -2915,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 121.158 130.81 90)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:C_0805"
 			(at 41.6052 34.29 0)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 104.902 40.64 90)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 126.238 130.81 90)
 			(effects
 				(font
@@ -3389,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 136.398 130.81 90)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 131.318 130.81 90)
 			(effects
 				(font
@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 141.478 130.81 90)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 156.718 130.81 90)
 			(effects
 				(font
@@ -3794,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 97.79 70.358 90)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 151.638 130.81 90)
 			(effects
 				(font
@@ -4058,7 +4058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 97.79 57.658 90)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 120.142 40.64 90)
 			(effects
 				(font
@@ -4196,7 +4196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 135.382 40.64 90)
 			(effects
 				(font
@@ -4407,7 +4407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 146.558 130.81 90)
 			(effects
 				(font
@@ -4684,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 97.79 64.008 90)
 			(effects
 				(font
@@ -4753,7 +4753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 149.352 40.64 90)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:R_0805"
 			(at 97.79 51.308 90)
 			(effects
 				(font

@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "alf64:Generic_1206"
+		(property "Footprint" "alf64:Fuse_1206"
 			(at 139.7 69.088 90)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "alf64:Generic_0805"
+		(property "Footprint" "alf64:C_0805"
 			(at 191.4652 78.74 0)
 			(effects
 				(font
