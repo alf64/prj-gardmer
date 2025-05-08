@@ -1,0 +1,32 @@
+Drill report for prj-gardmer-mb-v2.kicad_pcb
+Created on 2025-05-08T07:15:55+0200
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'prj-gardmer-mb-v2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (242 holes)
+    T2  0.500mm  0.0197"  (28 holes)
+    T3  0.500mm  0.0197"  (2 holes)
+    T4  0.800mm  0.0315"  (2 holes)
+    T5  0.900mm  0.0354"  (12 holes)
+    T6  1.000mm  0.0394"  (10 holes)
+    T7  1.100mm  0.0433"  (40 holes)
+    T8  1.200mm  0.0472"  (18 holes)
+    T9  1.500mm  0.0591"  (8 holes)
+
+    Total plated holes count 362
+
+
+Drill file 'prj-gardmer-mb-v2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.800mm  0.0709"  (3 holes)
+    T2  4.200mm  0.1654"  (4 holes)
+
+    Total unplated holes count 7
