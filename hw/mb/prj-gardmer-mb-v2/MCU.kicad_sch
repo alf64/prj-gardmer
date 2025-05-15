@@ -4352,6 +4352,36 @@
 		)
 		(uuid "fc9d8aaf-fe35-4f67-9e60-6271b8bf2a35")
 	)
+	(text "prj-gardmer-mb-v2"
+		(exclude_from_sim no)
+		(at 199.39 189.484 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "21f159b2-feb4-48c9-9588-08dbc2398a96")
+	)
+	(text "15.05.2025"
+		(exclude_from_sim no)
+		(at 213.868 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "36e1a77c-9b2b-4d15-bcba-3b753820b55f")
+	)
+	(text "001"
+		(exclude_from_sim no)
+		(at 271.78 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "8a55b571-8926-4f71-ba19-a9bd0369148d")
+	)
 	(text "These 2 pulldowns\nshould NOT be mounted\nwhen debugger is connected"
 		(exclude_from_sim no)
 		(at 214.376 119.126 0)

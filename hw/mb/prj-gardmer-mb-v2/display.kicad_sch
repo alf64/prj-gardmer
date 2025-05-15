@@ -2726,6 +2726,36 @@
 		)
 		(uuid "fccdfd62-a5c9-45d1-978c-a8a4ee5db70b")
 	)
+	(text "001"
+		(exclude_from_sim no)
+		(at 271.78 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "0efb76e0-6f4c-4957-99b5-24ed78e2840e")
+	)
+	(text "prj-gardmer-mb-v2"
+		(exclude_from_sim no)
+		(at 199.136 189.484 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "a96a2963-66ca-429b-aa24-1de762582b12")
+	)
+	(text "15.05.2025"
+		(exclude_from_sim no)
+		(at 213.614 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "f47354c1-71f9-4301-8e81-f892f2627e67")
+	)
 	(label "DISP_CA3"
 		(at 78.74 62.23 0)
 		(fields_autoplaced yes)

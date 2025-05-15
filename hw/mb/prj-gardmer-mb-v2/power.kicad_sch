@@ -1968,6 +1968,36 @@
 		)
 		(uuid "ff3183a1-30a1-46af-84f1-5088c235a9a1")
 	)
+	(text "prj-gardmer-mb-v2"
+		(exclude_from_sim no)
+		(at 199.136 189.484 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "1fae37a3-aec7-4a92-b3f8-319b96ec5e0c")
+	)
+	(text "15.05.2025"
+		(exclude_from_sim no)
+		(at 213.868 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "31be5811-b227-4ce1-bcb8-f5bed028d437")
+	)
+	(text "001"
+		(exclude_from_sim no)
+		(at 271.526 193.294 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+			)
+		)
+		(uuid "9c7e963e-c59a-463d-bac1-4745a1bfb41b")
+	)
 	(hierarchical_label "230VAC_N_IN"
 		(shape input)
 		(at 71.12 67.31 180)
